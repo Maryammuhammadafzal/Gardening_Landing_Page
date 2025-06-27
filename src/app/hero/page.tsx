@@ -4,7 +4,7 @@ import React from "react";
 const HeroPage = () => {
   return (
     <div
-      className="w-full h-screen bg-cover max-md:bg-center  bg-center bg-no-repeat"
+      className="w-full h-[700px] bg-cover max-md:bg-center  bg-center bg-no-repeat"
       style={{ backgroundImage: `url('/images/hero-image.png')` }}
     >
       <div className="w-full md:h-[90px] h-auto md:py-0 py-5 bg-white fixed top-0 left-0 shadow-md z-50">
