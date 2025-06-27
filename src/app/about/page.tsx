@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 const AboutPage = () => {
   return (
-    <div className="w-full h-auto my-35 flex flex-col justify-center items-center">
+    <div className="w-full h-auto my-35 max-lg:px-3 flex flex-col justify-center items-center">
       <div className="lg:w-[90%] w-full flex md:flex-row flex-col gap-5 justify-center items-center h-auto">
         <div className="img md:w-[50%] w-full sm:px-0 px-3 h-auto flex justify-center items-center">
           <Card

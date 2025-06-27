@@ -6,12 +6,12 @@ const ContactPage = () => {
   return (
     <div className="w-full h-auto flex justify-center items-center py-20 ">
       <div
-        className="w-[85%] flex justify-center items-center min-h-[400px] rounded-4xl bg-center bg-cover"
+        className="lg:w-[85%] w-[95%] flex justify-center items-center min-h-[400px] rounded-4xl bg-center bg-cover"
         style={{ backgroundImage: `url('/images/contact-image.png')` }}
       >
-        <div className="w-full h-full flex justify-evenly items-center gap-5">
+        <div className="w-full h-full flex lg:justify-evenly justify-between items-center gap-5">
           <div className="h-auto pl-10 w-auto text-white flex justify-center relative items-center">
-            <h3 className="text-5xl font-normal italic">Get In Touch</h3>
+            <h3 className="lg:text-5xl md:text-4xl text-3xl font-normal italic">Get In Touch</h3>
             <Image
               src="/images/contact-arrow.png"
               alt="arrow"
@@ -20,8 +20,8 @@ const ContactPage = () => {
               className="absolute -right-10"
             />
           </div>
-          <div className="flex flex-col gap-6 h-auto max-w-lg">
-            <p className="letter-spacing-1 text-white max-w-lg font-sans font-medium sm:text-base text-sm">
+          <div className="flex flex-col gap-6 h-auto ">
+            <p className="letter-spacing-1 text-white lg:max-w-lg max-w-md  max-[950px]:max-w-sm max-md:max-w-xs font-sans font-medium sm:text-base text-sm">
               Get inspired by our gallery showcasing stunning gardens designed
               by our team and the flourishing gardens of our community members.
             </p>

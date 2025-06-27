@@ -10,7 +10,7 @@ const GalleryPage = () => {
         </h3>
         <div className="flex flex-col w-full h-auto gap-5">
                 <div className="flex w-full gap-5">
-          <div className="w-[70%] h-auto flex justify-center items-center bg-center bg-cover rounded-4xl">
+          <div className="md:w-[70%] w-[54%] h-auto flex justify-center items-center bg-center bg-cover rounded-4xl">
             <Image
               src="/images/gallery-image1.png"
               alt="image"
@@ -19,7 +19,7 @@ const GalleryPage = () => {
               className="w-full h-[400px] rounded-4xl object-cover"
             />
           </div>
-          <div className="w-[29%] h-auto flex justify-center items-center bg-center bg-cover rounded-4xl">
+          <div className="md:w-[29%] w-[45%] h-auto flex justify-center items-center bg-center bg-cover rounded-4xl">
             <Image
               src="/images/gallery-image2.png"
               alt="image"
@@ -30,7 +30,7 @@ const GalleryPage = () => {
           </div>
         </div>
         <div className="flex w-full gap-5">
-          <div className="w-[40%] h-auto flex justify-center items-center bg-center bg-cover rounded-4xl">
+          <div className="w-[46%] h-auto flex justify-center items-center bg-center bg-cover rounded-4xl">
             <Image
               src="/images/gallery-image3.png"
               alt="image"

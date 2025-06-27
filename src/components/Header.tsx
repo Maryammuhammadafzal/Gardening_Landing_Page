@@ -4,7 +4,7 @@ import React from "react";
 const Header = () => {
   return (
     <div className="w-full h-[90px]  flex justify-center items-center text-lime-600 font-sans">
-      <div className="lg:w-[90%] w-full flex md:flex-row flex-col md:gap-0 gap-8 justify-between items-center h-auto p-2">
+      <div className="lg:w-[90%] w-full flex md:flex-row flex-col md:gap-0 gap-2 justify-between items-center h-auto p-2">
         <div className="logo w-auto h-auto">
           <Image src='/logo.png' alt="Logo" width={150} height={150} />
         </div>
