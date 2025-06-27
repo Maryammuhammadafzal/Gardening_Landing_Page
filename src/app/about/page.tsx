@@ -23,38 +23,48 @@ const AboutPage = () => {
           <h2 className="lg:text-5xl  md:text-4xl text-3xl font-medium ">
             Why Choose Us?
           </h2>
-          <p className="about-para max-w-lg font-sans font-medium sm:text-base text-sm">
+          <p className="letter-spacing-1 max-w-lg font-sans font-medium sm:text-base text-sm">
             Explore a world of lush greenery, vibrant blooms, and sustainable
             gardening practices. Let's grow together!
           </p>
           <div className="visions flex gap-5 py-4 h-auto w-full">
             <div className="w-auto h-auto gap-3 flex items-center">
               <div className="icon w-auto h-auto">
-                <Image src='/images/about-icon1.png' alt="icon" width={50} height={50}/>
+                <Image
+                  src="/images/about-icon1.png"
+                  alt="icon"
+                  width={100}
+                  height={100}
+                />
               </div>
               <div className="w-auto h-auto gap-3 flex-col flex ">
-                <h2 className="text-xl font-semibold ">
-                  Our Mission:
-                </h2>
-                <p className="md:text-base sm:text-sm text-xs">
-                  To provide high-quality, patient-centered healthcare that
-                  enhances the lives of individuals and communities.
+                <h2 className="text-lg letter-spacing-2 font-medium ">Eco-friendly</h2>
+                <p className="letter-spacing-1 font-sans font-medium text-sm">
+                  Eco-friendly and sustainable practices.
                 </p>
               </div>
             </div>
-            <div className="w-full h-auto gap-3 flex flex-col ">
-              <h2 className="lg:text-3xl md:text-2xl text-xl font-semibold ">
-                Our Vision:
-              </h2>
-              <p className="md:text-base sm:text-sm text-xs">
-                To be a trusted healthcare partner known for innovation,
-                excellence, and compassion.
-              </p>
+            <div className="w-auto h-auto gap-3 flex items-center">
+              <div className="icon w-auto h-auto">
+                <Image
+                  src="/images/about-icon2.png"
+                  alt="icon"
+                  width={100}
+                  height={100}
+                />
+              </div>
+              <div className="w-auto h-auto gap-3 flex-col flex ">
+                <h2 className="text-lg letter-spacing-2 font-medium ">High-quality</h2>
+                <p className="letter-spacing-1 font-sans font-medium text-sm">
+                  High-quality tools and supplies.
+                </p>
+              </div>
             </div>
+           
           </div>
           <div className="button w-full h-auto ">
-            <Button className="bg-[#A8D5BA] py-6 px-8 rounded-lg text-[#2E8B57] text-base font-bold hover:bg-[#b7e7ca] ">
-              Book Your Appointment
+            <Button className="bg-[#C7D216] text-white py-6 px-8 rounded-lg letter-spacing-2 text-lg font-medium hover:bg-[#204a30] ">
+              Lets Discuss
             </Button>
           </div>
         </div>

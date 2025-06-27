@@ -123,6 +123,9 @@
 body {
   font-family: "Aesthetic Moment", sans-serif;
 }
-.about-para {
+.letter-spacing-1 {
+  letter-spacing: 1px;
+}
+.letter-spacing-2 {
   letter-spacing: 2px;
 }
