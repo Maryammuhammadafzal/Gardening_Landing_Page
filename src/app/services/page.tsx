@@ -9,42 +9,42 @@ import { ArrowUpRight } from 'lucide-react';
 const slides = [
   {
     id: 1,
-    image: "/images/portfolio-image1.jpg",
+    image: "/images/service-card-image1.png",
     title: "Custom Furniture & Decor",
     description:
       "Our team collaborates with skilled artisans to craft bespoke furniture and decor pieces that perfectly complement your interiors.",
   },
   {
     id: 2,
-    image: "/images/portfolio-image2.jpg",
+    image: "/images/service-card-image2.png",
     title: "Modern Interior Design",
     description:
       "Transform your space with our innovative interior design solutions tailored to your style.",
   },
   {
     id: 3,
-    image: "/images/portfolio-image3.jpg",
+    image: "/images/service-card-image3.png",
     title: "Luxury Home Styling",
     description:
       "Elevate your home with luxurious styling and premium materials curated by our experts.",
   },
   {
     id: 4,
-    image: "/images/portfolio-image4.jpg",
+    image: "/images/service-card-image4.png",
     title: "Functional Art Pieces",
     description:
       "Unique, functional art pieces designed to add character and utility to your spaces.",
   },
   {
     id: 5,
-    image: "/images/portfolio-image5.jpg",
+    image: "/images/service-card-image5.png",
     title: "Eco-Friendly Designs",
     description:
       "Sustainable and eco-friendly designs that prioritize both aesthetics and the environment.",
   },
   {
     id: 6,
-    image: "/images/portfolio-image3.jpg",
+    image: "/images/service-card-image3.png",
     title: "Minimalist Decor",
     description:
       "Sleek and minimalist decor solutions for a modern, clutter-free living space.",
@@ -96,12 +96,12 @@ const ServicePage = () => {
   return (
     <div className='w-full h-auto flex flex-col justify-center items-center'>
         <div className="w-[90%] flex"></div>
-          <div id="features" className=" min-w-full overflow-hidden h-[500px] py-4">
+          <div id="features" className=" min-w-full overflow-hidden min-h-[500px] py-4">
       <Slider {...settings} className="w-full">
         {slides.map(({ id, image, title, description }) => (
           <div
             key={id}
-            className="w-[330px] h-[460px] mx-2 relative group font-sans" 
+            className="w-[330px] min-h-[460px] mx-2 relative group font-sans" 
           >
             <Image
               src={image}
@@ -109,7 +109,7 @@ const ServicePage = () => {
               fill
               className="object-cover"
               placeholder="blur"
-              blurDataURL="/images/placeholder.jpg"
+              blurDataURL="/images/placeholder.png"
             />
             <div className="overlay group-hover:block hidden w-full h-full bg-black/50 absolute top-0 left-0 z-10" />
             <div className="w-full h-full group-hover:flex hidden absolute top-0 left-0 justify-center items-center z-20">
@@ -121,14 +121,6 @@ const ServicePage = () => {
                   {title}
                 </h3>
                 <p className="md:text-base text-xs sm:text-sm">{description}</p>
-                <Image
-                  src="/images/line4.png"
-                  alt="decorative line"
-                  width={150}
-                  height={20}
-                  className="object-contain"
-                  onError={() => console.error("Failed to load image: /images/line4.png")} // Debugging
-                />
               </div>
             </div>
           </div>
