@@ -16,7 +16,7 @@ const HeroPage = () => {
           <div className="md:w-[85%] w-full md:px-0 px-5 pb-20 h-auto flex items-center">
                 <div className="lg:w-[55%] md:w-[70%] sm:w-full h-fit flex-col flex gap-4 max-w-xl text-white">
                         <h1 className="2xl:text-7xl xl:text-6xl sm:text-5xl text-4xl md:leading-18 sm:leading-14 leading-12 font-normal xl-leading-20">Cultivating Your Green Oasis</h1>
-                        <p className="text-lg font-sans">Welcome to your one-stop destination for gardening inspiration, tools, and expertise. Whether you're an experienced gardener or just starting out, we are here to nurture your passion for plants.</p>
+                        <p className="text-lg font-sans">Welcome to your one-stop destination for gardening inspiration, tools, and expertise. Whether youre an experienced gardener or just starting out, we are here to nurture your passion for plants.</p>
                 </div>
           </div>
         </div>

@@ -41,11 +41,11 @@ const ServicePage = () => {
   const settings = {
     dots: true,
     speed: 500,
-    slidesToShow: 4, // Reduced to ensure spacing fits
+    slidesToShow: 4, 
     slidesToScroll: 4,
     initialSlide: 0,
     centerMode: true,
-    centerPadding: "60px", // Adjusted for spacing
+    centerPadding: "60px",
     infinite: true,
     autoplay: true,
     autoplaySpeed: 2000,

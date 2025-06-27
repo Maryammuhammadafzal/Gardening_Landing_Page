@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import AboutPage from "./about/page";
 import ServicePage from "./services/page";
 import ContactPage from "./contact/page";

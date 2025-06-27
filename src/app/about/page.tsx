@@ -25,7 +25,7 @@ const AboutPage = () => {
           </h2>
           <p className="letter-spacing-1 max-w-lg font-sans font-medium sm:text-base text-sm">
             Explore a world of lush greenery, vibrant blooms, and sustainable
-            gardening practices. Let's grow together!
+            gardening practices. Lets grow together!
           </p>
           <div className="visions max-[500px]:flex-col flex-row flex gap-5 py-4 h-auto w-full">
             <div className="w-auto h-auto gap-3 flex items-center">
