@@ -27,7 +27,7 @@ const AboutPage = () => {
             Explore a world of lush greenery, vibrant blooms, and sustainable
             gardening practices. Let's grow together!
           </p>
-          <div className="visions flex gap-5 py-4 h-auto w-full">
+          <div className="visions max-[500px]:flex-col flex-row flex gap-5 py-4 h-auto w-full">
             <div className="w-auto h-auto gap-3 flex items-center">
               <div className="icon w-auto h-auto">
                 <Image

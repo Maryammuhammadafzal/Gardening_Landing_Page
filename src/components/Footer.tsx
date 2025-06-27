@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div className="w-full h-auto py-10 flex justify-center items-center">
       <div className="lg:w-[90%] w-full lg:px-0 px-5 flex flex-col gap-5 justify-center items-center">
-        <div className="w-full h-full py-10 flex text-green-800 justify-between items-center gap-5">
+        <div className="w-full h-full py-10 flex sm:flex-row flex-col text-green-800 justify-between items-center gap-24 sm:gap-5">
           <div className="h-auto pl-10 w-auto flex justify-center relative items-center">
             <h3 className="lg:text-5xl md:text-4xl text-3xl font-normal italic">Grow with Us!</h3>
             <Image
@@ -27,7 +27,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="w-full h-auto py-10 flex flex-wrap justify-evenly gap-5">
+        <div className="w-full h-auto py-10 flex flex-wrap justify-start sm:justify-evenly gap-5">
           <div className="flex flex-col gap-2 w-auto h-auto">
             <h4 className="text-2xl italic text-[#C7D216]">Quick Links</h4>
             <ul className="flex py-2 font-sans letter-spacing-1 text-green-800 flex-col gap-2 h-auto w-auto">
@@ -111,7 +111,7 @@ const Footer = () => {
         </div>
 
         <div className="copy-right flex w-full justify-center items-center">
-                <p className="text-base text-green-800 font-sans">© 2021 all copyright reserved. All Rights Reserved.</p>
+                <p className="sm:text-base text-sm text-center text-green-800 font-sans">© 2021 all copyright reserved. All Rights Reserved.</p>
         </div>
       </div>
     </div>

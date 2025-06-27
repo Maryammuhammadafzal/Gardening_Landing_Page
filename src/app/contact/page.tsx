@@ -6,10 +6,10 @@ const ContactPage = () => {
   return (
     <div className="w-full h-auto flex justify-center items-center py-20 ">
       <div
-        className="lg:w-[85%] w-[95%] flex justify-center items-center min-h-[400px] rounded-4xl bg-center bg-cover"
+        className="lg:w-[85%] w-[95%] flex justify-center items-center sm:min-h-[400px] min-h-[500px] rounded-4xl bg-center bg-cover"
         style={{ backgroundImage: `url('/images/contact-image.png')` }}
       >
-        <div className="w-full h-full flex lg:justify-evenly justify-between items-center gap-5">
+        <div className="w-full h-full flex lg:justify-evenly justify-center max-sm:text-center gap-24 sm:justify-between sm:flex-row flex-col items-center sm:gap-5">
           <div className="h-auto pl-10 w-auto text-white flex justify-center relative items-center">
             <h3 className="lg:text-5xl md:text-4xl text-3xl font-normal italic">Get In Touch</h3>
             <Image
