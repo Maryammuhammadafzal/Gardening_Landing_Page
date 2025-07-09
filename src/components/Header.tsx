@@ -11,32 +11,32 @@ const Header = () => {
         <div className="tabs w-auto h-auto flex justify-center items-center">
           <ul className="w-full h-auto flex justify-center items-center md:gap-8 xs:gap-5 gap-3">
             <li className="cursor-pointer">
-              <Link href="/" className="text-sm hover:text-black hover:font-semibold focus:text-black focus:font-semibold cursor-pointer">
+              <Link href="/" className="xs:text-sm text-xs hover:text-black hover:font-semibold focus:text-black focus:font-semibold cursor-pointer">
                 Home
               </Link>
             </li>
             <li className="cursor-pointer">
-              <Link href="/" className="text-sm hover:text-black hover:font-semibold focus:text-black focus:font-semibold cursor-pointer">
+              <Link href="/" className="xs:text-sm text-xs hover:text-black hover:font-semibold focus:text-black focus:font-semibold cursor-pointer">
                 About Us
               </Link>
             </li>
             <li className="cursor-pointer">
-              <Link href="/" className="text-sm hover:text-black hover:font-semibold focus:text-black focus:font-semibold cursor-pointer">
+              <Link href="/" className="xs:text-sm text-xs hover:text-black hover:font-semibold focus:text-black focus:font-semibold cursor-pointer">
                 Services
               </Link>
             </li>
             <li className="cursor-pointer">
-              <Link href="/" className="text-sm hover:text-black hover:font-semibold focus:text-black focus:font-semibold cursor-pointer">
+              <Link href="/" className="xs:text-sm text-xs hover:text-black hover:font-semibold focus:text-black focus:font-semibold cursor-pointer">
                 Doctors
               </Link>
             </li>
             <li className="cursor-pointer">
-              <Link href="/" className="text-sm hover:text-black hover:font-semibold focus:text-black focus:font-semibold cursor-pointer">
+              <Link href="/" className="xs:text-sm text-xs hover:text-black hover:font-semibold focus:text-black focus:font-semibold cursor-pointer">
                 FAQs
               </Link>
             </li>
             <li className="cursor-pointer">
-              <Link href="/" className="text-sm hover:text-black hover:font-semibold focus:text-black focus:font-semibold cursor-pointer">
+              <Link href="/" className="xs:text-sm text-xs hover:text-black hover:font-semibold focus:text-black focus:font-semibold cursor-pointer">
                 Contact Us
               </Link>
             </li>
