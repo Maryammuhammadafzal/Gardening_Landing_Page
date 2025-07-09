@@ -27,11 +27,6 @@ const Header = () => {
             </li>
             <li className="cursor-pointer">
               <Link href="/" className="xs:text-sm text-xs hover:text-black hover:font-semibold focus:text-black focus:font-semibold cursor-pointer">
-                Doctors
-              </Link>
-            </li>
-            <li className="cursor-pointer">
-              <Link href="/" className="xs:text-sm text-xs hover:text-black hover:font-semibold focus:text-black focus:font-semibold cursor-pointer">
                 FAQs
               </Link>
             </li>
